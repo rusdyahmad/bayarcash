@@ -33,5 +33,7 @@ Thumbs.db
 
 # Cache
 /cache/
+
+# Test files
 test_fpx_direct_debit.php
 test_fpx.php
