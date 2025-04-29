@@ -2,6 +2,8 @@
 
 A PHP SDK for integrating with the Bayarcash payment gateway API.
 
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue.svg)](https://github.com/rusdyahmad/bayarcash)
+
 ## Table of Contents
 
 - [Installation](#installation)
@@ -27,7 +29,15 @@ A PHP SDK for integrating with the Bayarcash payment gateway API.
 You can install the package via composer:
 
 ```bash
-composer require bayarcash/bayarcash-php-sdk
+composer require rusdyahmad/bayarcash
+```
+
+Or add it directly to your composer.json file:
+
+```json
+"require": {
+    "rusdyahmad/bayarcash": "^1.0"
+}
 ```
 
 ## Configuration

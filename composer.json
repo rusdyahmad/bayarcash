@@ -1,5 +1,5 @@
 {
-  "name": "bayarcash/php-sdk",
+  "name": "rusdyahmad/bayarcash",
   "description": "A PHP client library for integrating with the Bayarcash payment gateway, supporting FPX and DuitNow.",
   "type": "library",
   "license": "MIT",
@@ -11,12 +11,17 @@
     "fpx",
     "duitnow"
   ],
+  "homepage": "https://github.com/rusdyahmad/bayarcash",
   "authors": [
     {
       "name": "Rusdy Ahmad",
       "email": "me@rusdy.com"
     }
   ],
+  "support": {
+    "issues": "https://github.com/rusdyahmad/bayarcash/issues",
+    "source": "https://github.com/rusdyahmad/bayarcash"
+  },
   "require": {
     "php": "^7.4|^8.0|^8.1|^8.2|^8.3",
     "guzzlehttp/guzzle": "^7.0",
