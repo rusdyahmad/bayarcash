@@ -3,7 +3,7 @@
   "description": "A PHP client library for integrating with the Bayarcash payment gateway, supporting FPX and DuitNow.",
   "type": "library",
   "license": "MIT",
-  "version": "v1.0.0",
+  "version": "1.0.0",
   "keywords": [
     "payment",
     "gateway",
