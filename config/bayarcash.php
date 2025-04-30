@@ -65,4 +65,19 @@ return [
         'qriswallet' => 10,
         'nets' => 11,
     ],
+
+    /*
+    |--------------------------------------------------------------------------
+    | Bayarcash Enabled Channels and Fees
+    |--------------------------------------------------------------------------
+    |
+    | Here you can configure which payment channels are enabled and set
+    | custom fees for each channel. The enabled_channels is an array of
+    | channel IDs, and channel_fees is an associative array mapping channel IDs
+    | to their fee structure.
+    |
+    */
+
+    'enabled_channels' => json_decode(env('BAYARCASH_ENABLED_CHANNELS', '[]'), true),
+    'channel_fees' => json_decode(env('BAYARCASH_CHANNEL_FEES', '{}'), true),
 ];
